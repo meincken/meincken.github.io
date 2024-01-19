@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+main {
+  @apply 
+    flex
+    flex-col
+    items-center
+    justify-between
+}

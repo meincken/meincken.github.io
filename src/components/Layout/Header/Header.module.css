@@ -1,0 +1,12 @@
+.global_header {
+  @apply 
+    flex
+    flex-col
+    items-center
+    justify-between
+}
+
+.nav_ul {
+  @apply 
+    flex
+}

@@ -1,0 +1,10 @@
+.global_footer {
+  @apply 
+    flex
+    flex-col
+    items-center
+    justify-between
+    text-sm
+    text-black
+    bg-gray-500
+}

@@ -1,0 +1,13 @@
+.jumbotron {
+  @apply 
+    flex
+    flex-col
+    items-center
+    bg-white
+    text-black
+}
+
+.jumbotron p {
+  @apply 
+    text-4xl
+}
