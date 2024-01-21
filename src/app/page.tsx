@@ -1,15 +1,13 @@
-import { Avatar, Button, Jumbotron} from '@/components/Elements'
+import { Jumbotron, ScrollToTop, Table } from '@/components/Elements'
+import { About } from '@/components/Sections'
 
 export default function Home() {
   return (
     <>
       <Jumbotron />
       <main>
-        <section>
-          <h1>Meincken</h1>
-          <Avatar />
-          <Button>Test</Button>
-        </section>
+        <About />
+        <ScrollToTop />
       </main>
     </>
   )

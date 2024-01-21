@@ -33,9 +33,11 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
+    "dist/types/**/*.ts",
     "src/components/Elements/Button/Button.tsx",
     "src/components/Elements/Avatar/Avatar.jsx",
-    "dist/types/**/*.ts"
+    "src/components/Elements/ScrollToTop/ScrollToTop.jsx",
+    "src/components/Elements/Table/Table.tsx"
   ],
   "exclude": [
     "node_modules"

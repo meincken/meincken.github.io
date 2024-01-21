@@ -1,9 +1,13 @@
 .global_header {
-  @apply 
+  @apply
+    bg-slate-800
+    fixed
     flex
     flex-col
     items-center
     justify-between
+    z-10
+    w-full
 }
 
 .nav_ul {

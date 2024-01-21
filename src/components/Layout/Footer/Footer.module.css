@@ -8,3 +8,13 @@
     text-black
     bg-gray-500
 }
+
+.social {
+  @apply
+    flex
+}
+
+.social svg {
+  @apply
+    m-2
+}

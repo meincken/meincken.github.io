@@ -1,0 +1,11 @@
+.scroll_to_top {
+  @apply
+   bg-white
+   fixed
+   rounded-full
+   cursor-pointer
+   bottom-2
+   right-20
+   text-slate-950
+   p-3
+}
