@@ -1,4 +1,4 @@
-import { Jumbotron, ScrollToTop, Table } from '@/components/Elements'
+import { Jumbotron, ScrollToTop } from '@/components/Elements'
 import { About } from '@/components/Sections'
 
 export default function Home() {

@@ -1,11 +1,11 @@
-.scroll_to_top {
+.scroll_to_top div {
   @apply
    bg-white
+   text-slate-950
    fixed
    rounded-full
    cursor-pointer
    bottom-2
    right-20
-   text-slate-950
    p-3
 }
