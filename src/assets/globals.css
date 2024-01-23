@@ -33,3 +33,7 @@ main {
     items-center
     justify-between
 }
+
+.icon {
+  @apply w-10
+}

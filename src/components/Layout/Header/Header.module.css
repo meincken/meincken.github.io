@@ -1,12 +1,22 @@
 .global_header {
-  @apply 
-    flex
-    flex-col
-    items-center
-    justify-between
+  @apply
+    bg-slate-800
+    fixed
+    w-full
+    pt-5
+    pb-5 
 }
 
-.nav_ul {
-  @apply 
-    flex
+.wrapper {
+  @apply
+  container
+  mx-auto
+  grid
+  grid-cols-2
+  z-10
+}
+
+.global_header h1 {
+  @apply
+    uppercase
 }

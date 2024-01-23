@@ -7,4 +7,16 @@
     text-sm
     text-black
     bg-gray-500
+    pt-10
+    pb-10
+}
+
+.social {
+  @apply
+    flex
+}
+
+.social svg {
+  @apply
+    m-2
 }

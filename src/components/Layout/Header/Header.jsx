@@ -1,14 +1,13 @@
 import styles from './Header.module.css'
+import { Navigation } from '@/components/Elements'
 
 export const Header = () => {
   return (
     <header className={styles.global_header}>
-      <h1>This is a header</h1>
-      <ul className={styles.nav_ul}>
-        <li>Test A</li>
-        <li>Test B</li>
-        <li>Test C</li>
-      </ul>
+      <div className={styles.wrapper}>
+        <h1>Meincken</h1>
+        <Navigation />
+      </div>
     </header>
   );
 }
