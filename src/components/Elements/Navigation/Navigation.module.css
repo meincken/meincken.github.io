@@ -3,3 +3,8 @@
     flex
     justify-end
 }
+
+.nav_ul li a {
+  @apply
+    p-5
+}
