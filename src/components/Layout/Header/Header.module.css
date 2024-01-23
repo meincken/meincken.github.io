@@ -2,15 +2,21 @@
   @apply
     bg-slate-800
     fixed
-    flex
-    flex-col
-    items-center
-    justify-between
-    z-10
     w-full
+    pt-5
+    pb-5 
 }
 
-.nav_ul {
-  @apply 
-    flex
+.wrapper {
+  @apply
+  container
+  mx-auto
+  grid
+  grid-cols-2
+  z-10
+}
+
+.global_header h1 {
+  @apply
+    uppercase
 }

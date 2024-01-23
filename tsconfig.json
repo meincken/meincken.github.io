@@ -37,7 +37,7 @@
     "src/components/Elements/Button/Button.tsx",
     "src/components/Elements/Avatar/Avatar.jsx",
     "src/components/Elements/ScrollToTop/ScrollToTop.jsx",
-    "src/components/Elements/Table/Table.tsx"
+    "src/components/Elements/Navigation/Navigation.jsx",
   ],
   "exclude": [
     "node_modules"

@@ -1,0 +1,5 @@
+.nav_ul {
+  @apply 
+    flex
+    justify-end
+}
