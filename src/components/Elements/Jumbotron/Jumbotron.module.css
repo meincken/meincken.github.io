@@ -1,12 +1,12 @@
 .jumbotron {
-  height: 100vh;
   @apply 
     flex
     flex-col
     items-center
     justify-center
-    bg-white
+    bg-lime-500
     text-black
+    h-screen
 }
 
 .jumbotron p {
