@@ -1,15 +1,15 @@
 {
   "nav": [
     {
-      "link": "#",
+      "link": "#about",
       "title": "About"
     },
     {
-      "link": "#",
+      "link": "#meat",
       "title": "Meat"
     },
     {
-      "link": "#",
+      "link": "#contact",
       "title": "Contact"
     }
   ]
