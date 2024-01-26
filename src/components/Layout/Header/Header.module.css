@@ -21,3 +21,8 @@
   @apply
     uppercase
 }
+
+.global_header svg {
+  width: 150px;
+  height: 30px;
+}

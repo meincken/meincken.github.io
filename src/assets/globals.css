@@ -6,6 +6,11 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --color-base-grey: #dddddd;
+  --color-base-red: #dc2222;
+  --spacing-small: 4px;
+  --spacing-medium: 8px;
+  --spacing-large: 12px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,7 +32,7 @@ body {
 }
 
 main {
-  @apply 
+  @apply
     flex
     flex-col
     items-center
@@ -36,4 +41,8 @@ main {
 
 .icon {
   @apply w-10
+}
+
+svg {
+  fill: currentColor
 }
