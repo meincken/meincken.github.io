@@ -1,10 +1,10 @@
-import { Avatar} from '@/components/Elements'
+import { Avatar} from '@/components/Atoms'
 
 export const About = () => {
   return (
     <article id={`about`} className={`about`}>
       <h1>Meincken</h1>
-      <Avatar />
+      <Avatar size='large' />
     </article>
   );
 }

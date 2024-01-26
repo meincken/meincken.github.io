@@ -44,5 +44,10 @@ main {
 }
 
 svg {
-  fill: currentColor
+  @apply
+    fill-current
+}
+
+#story--atoms-logo--brand--primary {
+  color: black;
 }

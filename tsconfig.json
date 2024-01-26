@@ -35,8 +35,8 @@
     ".next/types/**/*.ts",
     "dist/types/**/*.ts",
     "src/components/Elements/Button/Button.tsx",
-    "src/components/Elements/Avatar/Avatar.jsx",
-    "src/components/Elements/ScrollToTop/ScrollToTop.jsx",
+    "src/components/Atoms/Avatar/Avatar.jsx",
+    "src/components/Atoms/ScrollToTop/ScrollToTop.jsx",
     "src/components/Elements/Navigation/Navigation.jsx",
   ],
   "exclude": [

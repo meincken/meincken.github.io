@@ -1,0 +1,22 @@
+.avatar {
+  @apply
+    rounded-full
+}
+
+.avatar_large {
+  @apply
+    h-80
+    w-80
+}
+
+.avatar_medium {
+  @apply
+    h-60
+    w-60
+}
+
+.avatar_small {
+  @apply
+    h-40
+    w-40
+}
