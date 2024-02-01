@@ -1,0 +1,14 @@
+.dark {
+  @apply
+    text-black
+}
+
+.white {
+  @apply
+    text-white
+}
+
+.positive {
+  @apply
+    text-lime-500
+}
