@@ -49,7 +49,6 @@ svg {
 }
 
 .about {
-  width: 760px;
   @apply
     gap-5
     grid
