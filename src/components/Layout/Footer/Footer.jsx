@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from './Footer.module.css'
-import { Github, LinkedIn } from '@/components/Elements'
+import { Github, LinkedIn } from '@/components/Atoms'
 import data from '@/data/user.json'
 
 export const Footer = () => {
