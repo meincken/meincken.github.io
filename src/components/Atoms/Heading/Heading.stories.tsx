@@ -6,8 +6,7 @@ const meta = {
   component: Heading,
   tags: ['autodocs'],
   args: {
-    variant: "heading-1",
-    tag: "h1",
+    color: 'positive',
     children: "Have the courage to be vulnerable.",
   },
 } satisfies Meta<typeof Heading>
@@ -16,22 +15,38 @@ export default meta
 
 type Story = StoryObj<typeof meta>
 
-export const Playground: Story = {
+export const Heading_1: Story = {
   args: {
-    color: "dark",
-  },
-  parameters: {
-    docs: {
-      canvas: {
-        sourceState: "shown",
-      },
-    },
-  },
+    variant: "heading-1",
+  }
 }
 
-export const Reversed: Story = {
-  args: { color: "white" },
-  parameters: {
-    backgrounds: { default: "Purple 700" },
-  },
+export const Heading_2: Story = {
+  args: {
+    variant: 'heading-2'
+  }
+}
+
+export const Heading_3: Story = {
+  args: {
+    variant: 'heading-3'
+  }
+}
+
+export const Heading_4: Story = {
+  args: {
+    variant: 'heading-4'
+  }
+}
+
+export const Heading_5: Story = {
+  args: {
+    variant: 'heading-5'
+  }
+}
+
+export const Heading_6: Story = {
+  args: {
+    variant: 'heading-6'
+  }
 }
